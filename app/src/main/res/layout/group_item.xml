@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_group"
+        android:text="ALEZ SLODKA"
+        android:typeface="serif"
+        android:textSize="25dp"
+        android:textColor="@color/colorText"
+        android:background="@drawable/underline"
+        />
+
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group_items"
+        android:columnWidth="200dp"
+        android:numColumns="2"
+        android:fastScrollEnabled="false"
+        android:nestedScrollingEnabled="false">
+
+    </GridView>
+
+
+</LinearLayout>
